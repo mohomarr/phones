@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+body{
+    background-color: #000;
+    transition: .5s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+/* ==================Container================== */
+.container{
+    width: 100%;
+     min-height: 100vh;
+}
+/* ================== Header IN Container================== */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+header .logo{
+    width: 5rem;
+    height: 5rem;
+    border-radius:17rem;
+}
+
+ul li {
+    display: inline-block;
+}
+
+/* ==================Content================== */
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 3rem 3rem auto;
+}
+
+.content .text{
+    width: 30%;
+}
+.img__1{
+    border-radius: 2rem;
+}
+
+.content .text h2{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+}
+
+.text p{
+    font-size: 1.5rem;
+    margin: 2.5rem 0;
+}
+
+.text a{
+    background-color: white;
+    color: #000;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 3px 1px 12px rgba(215,6,1,0.25);
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+}
+.icons{
+    border-radius: 22rem;
+
+
+}
+.icons img{
+    width: 9rem;
+    height: 9rem;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    margin-left: 2rem;
+    border-radius: 50%;
+
+}
+.icons img:hover{
+  transform: scale(1.1);
+}
+
+
+@media screen and (min-width: 320px){
+    header{
+    margin-top: 2rem;
+}
+
+.content .text h2{
+    font-size: 1.5rem;
+}
+.img__1{
+    width: 18rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+.text p{
+    font-size: 0.9rem;
+    margin: 1.5rem 0;
+}
+.text a{
+    background-color: white;
+    color: #000;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 3px 1px 12px rgba(215,6,1,0.25);
+    font-weight: 800;
+    font-size: 0.6rem;
+    letter-spacing: 0.05rem;
+}
+.icons img{
+    width: 5rem;
+    height: 5rem;
+}
+
+}
